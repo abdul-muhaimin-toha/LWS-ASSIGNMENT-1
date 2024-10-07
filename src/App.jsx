@@ -1,4 +1,5 @@
 import AboutSection from "./components/AboutSection";
+import FAQSection from "./components/FAQSection";
 import FeatureSection from "./components/FeatureSection";
 import HeroSection from "./components/HeroSection";
 import MeetingSection from "./components/MeetingSection";
@@ -14,6 +15,7 @@ function App() {
       <PropertySection />
       <AboutSection />
       <MeetingSection />
+      <FAQSection />
     </>
   );
 }
