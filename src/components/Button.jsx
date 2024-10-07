@@ -21,6 +21,11 @@ function Button({ title, link, type }) {
       "border-primary bg-primary hover:border-blue-dark hover:bg-blue-dark mt-4 inline-flex items-center justify-center rounded-md border px-7 py-3 text-center text-base font-medium text-white";
   }
 
+  if (type === "ctaBtn") {
+    styling =
+      "bg-secondary inline-block rounded-md border border-transparent px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]";
+  }
+
   return (
     <a href={link} className={styling}>
       {title}
