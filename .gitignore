@@ -24,5 +24,4 @@ dist-ssr
 *.sw?
 
 src/components/FeatureSection.jsx
-src/components/HeroSection.jsx
 src/components/SectionHeading.jsx
