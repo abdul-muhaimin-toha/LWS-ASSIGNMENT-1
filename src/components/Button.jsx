@@ -16,6 +16,11 @@ function Button({ title, link, type }) {
       "text-dark shadow-1 hover:bg-gray-2 hover:text-body-color inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium transition duration-300 ease-in-out";
   }
 
+  if (type === "blueBtn") {
+    styling =
+      "border-primary bg-primary hover:border-blue-dark hover:bg-blue-dark mt-4 inline-flex items-center justify-center rounded-md border px-7 py-3 text-center text-base font-medium text-white";
+  }
+
   return (
     <a href={link} className={styling}>
       {title}
