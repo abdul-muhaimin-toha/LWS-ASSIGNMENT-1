@@ -14,8 +14,8 @@ function AboutSection() {
     },
     yearOfExperience: "09",
     images: [
-      "/public/images/about/about-image-01.jpg",
-      "/public/images/about/about-image-02.jpg",
+      "/images/about/about-image-01.jpg",
+      "/images/about/about-image-02.jpg",
     ],
   };
 

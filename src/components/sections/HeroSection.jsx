@@ -44,7 +44,7 @@ function HeroSection() {
             <div className="relative z-10 mx-auto max-w-[845px]">
               <div className="mt-16">
                 <img
-                  src="/public/images/hero/hero-image.png"
+                  src="/images/hero/hero-image.png"
                   alt="hero"
                   className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
                 />

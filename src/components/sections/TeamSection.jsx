@@ -5,25 +5,25 @@ function TeamSection() {
   const teams = [
     {
       id: 0,
-      img: "/public/images/team/team-01.png",
+      img: "/images/team/team-01.png",
       name: "Melissa Tatcher",
       designation: "Marketing Expert",
     },
     {
       id: 1,
-      img: "/public/images/team/team-02.png",
+      img: "/images/team/team-02.png",
       name: "Stuard Ferrel",
       designation: "Digital Marketer",
     },
     {
       id: 2,
-      img: "/public/images/team/team-03.png",
+      img: "/images/team/team-03.png",
       name: "Eva Hudson",
       designation: "Creative Designer",
     },
     {
       id: 3,
-      img: "/public/images/team/team-04.png",
+      img: "/images/team/team-04.png",
       name: "Jackie Sanders",
       designation: "Founder of Facebook",
     },

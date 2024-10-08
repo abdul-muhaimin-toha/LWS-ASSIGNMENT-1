@@ -10,7 +10,7 @@ function Footer() {
             <div className="mb-10 w-full">
               <a href="#" className="mb-6 inline-block max-h-[100px]">
                 <img
-                  src="/public/images/logo/logo.svg"
+                  src="/images/logo/logo.svg"
                   alt="logo"
                   className="max-w-full"
                 />
@@ -120,10 +120,7 @@ function Footer() {
                   className="group flex items-center gap-[22px]"
                 >
                   <div className="overflow-hidden rounded">
-                    <img
-                      src="/public/images/blog/blog-footer-01.jpg"
-                      alt="blog"
-                    />
+                    <img src="/images/blog/blog-footer-01.jpg" alt="blog" />
                   </div>
                   <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
                     I think really important to design with...
@@ -134,10 +131,7 @@ function Footer() {
                   className="group flex items-center gap-[22px]"
                 >
                   <div className="overflow-hidden rounded">
-                    <img
-                      src="/public/images/blog/blog-footer-02.jpg"
-                      alt="blog"
-                    />
+                    <img src="/images/blog/blog-footer-02.jpg" alt="blog" />
                   </div>
                   <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
                     Recognizing the need is the primary...
