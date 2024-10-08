@@ -1,5 +1,5 @@
-import PropertyCard from "./PropertyCard";
-import SectionHeading from "./SectionHeading";
+import SectionHeading from "../SectionHeading";
+import PropertyCard from "../PropertyCard";
 
 function PropertySection() {
   const properties = [

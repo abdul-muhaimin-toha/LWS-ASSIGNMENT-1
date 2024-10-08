@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "../Button";
 
 function Navbar() {
   const pageLinks = [
@@ -28,7 +28,7 @@ function Navbar() {
                 <li className="group relative" key={pageLink.id}>
                   <a
                     href={pageLink.link}
-                    className="ud-menu-scroll text-dark group-hover:text-primary mx-8 flex py-2 text-base font-medium lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10 dark:text-white"
+                    className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
                   >
                     {pageLink.title}
                   </a>

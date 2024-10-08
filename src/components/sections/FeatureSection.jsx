@@ -1,5 +1,5 @@
-import FeatureCard from "./FeatureCard";
-import SectionHeading from "./SectionHeading";
+import FeatureCard from "../FeatureCard";
+import SectionHeading from "../SectionHeading";
 
 function FeatureSection() {
   const features = [
@@ -11,7 +11,7 @@ function FeatureSection() {
         "Discover an array of hand-picked properties that meet the highest standards of luxury and comfort.",
       btn: {
         title: "Learn More",
-        link: "javascript:void(0)",
+        link: "#",
       },
     },
     {
@@ -22,7 +22,7 @@ function FeatureSection() {
         "Our advanced matching system pairs you with properties that align with your specific needs and desires.",
       btn: {
         title: "Learn More",
-        link: "javascript:void(0)",
+        link: "#",
       },
     },
     {
@@ -33,7 +33,7 @@ function FeatureSection() {
         "Benefit from the expertise of our dedicated team of real estate professionals.",
       btn: {
         title: "Learn More",
-        link: "javascript:void(0)",
+        link: "#",
       },
     },
     {
@@ -44,13 +44,13 @@ function FeatureSection() {
         "Take advantage of our cutting-edge virtual tours and 3D walkthroughs to explore properties from the comfort of your home.",
       btn: {
         title: "Learn More",
-        link: "javascript:void(0)",
+        link: "#",
       },
     },
   ];
 
   return (
-    <section className="dark:bg-dark pb-8 pt-20 lg:pb-[70px] lg:pt-[120px]">
+    <section className="pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px]">
       <div className="container">
         <SectionHeading
           topTitle="Features"

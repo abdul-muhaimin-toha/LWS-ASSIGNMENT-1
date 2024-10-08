@@ -1,5 +1,5 @@
-import AboutContent from "./AboutContent";
-import AboutGallery from "./AboutGallery";
+import AboutContent from "../AboutContent";
+import AboutGallery from "../AboutGallery";
 
 function AboutSection() {
   const content = {
@@ -10,7 +10,7 @@ function AboutSection() {
     ],
     btnLink: {
       title: "Know More",
-      link: '"javascript:void(0)"',
+      link: '"#"',
     },
     yearOfExperience: "09",
     images: [
@@ -22,7 +22,7 @@ function AboutSection() {
   return (
     <section
       id="about"
-      className="bg-gray-1 dark:bg-dark-2 pb-8 pt-20 lg:pb-[70px] lg:pt-[120px]"
+      className="bg-gray-1 pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px]"
     >
       <div className="container">
         <div>

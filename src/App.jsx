@@ -1,10 +1,13 @@
-import AboutSection from "./components/AboutSection";
-import FAQSection from "./components/FAQSection";
-import FeatureSection from "./components/FeatureSection";
-import HeroSection from "./components/HeroSection";
-import MeetingSection from "./components/MeetingSection";
-import Navbar from "./components/Navbar";
-import PropertySection from "./components/PropertySection";
+import AboutSection from "./components/sections/AboutSection";
+import FAQSection from "./components/sections/FAQSection";
+import FeatureSection from "./components/sections/FeatureSection";
+import HeroSection from "./components/sections/HeroSection";
+import MeetingSection from "./components/sections/MeetingSection";
+import Navbar from "./components/sections/Navbar";
+import PropertySection from "./components/sections/PropertySection";
+import TeamSection from "./components/sections/TeamSection";
+import ContactSection from "./components/sections/ContactSection";
+import Footer from "./components/sections/Footer";
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
       <AboutSection />
       <MeetingSection />
       <FAQSection />
+      <TeamSection />
+      <ContactSection />
+      <Footer />
     </>
   );
 }

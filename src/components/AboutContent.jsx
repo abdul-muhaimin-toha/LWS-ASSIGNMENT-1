@@ -4,13 +4,13 @@ function AboutContent({ content }) {
   return (
     <div className="w-full px-4 lg:w-1/2">
       <div className="mb-12 max-w-[540px] lg:mb-0">
-        <h2 className="text-dark mb-5 text-3xl font-bold leading-tight sm:text-[40px] sm:leading-[1.2] dark:text-white">
+        <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
           {content.title}
         </h2>
         {content.details.map((paragraph, i) => (
           <p
             key={i}
-            className="text-body-color dark:text-dark-6 mb-6 text-base leading-relaxed"
+            className="mb-6 text-base leading-relaxed text-body-color dark:text-dark-6"
           >
             {paragraph}
           </p>

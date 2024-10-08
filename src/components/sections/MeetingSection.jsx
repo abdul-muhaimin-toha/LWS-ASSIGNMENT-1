@@ -1,5 +1,5 @@
-import Button from "./Button";
-import MeetingSvg from "./svg-components/MeetingSvg";
+import Button from "../Button";
+import MeetingSvg from "../svg-components/MeetingSvg";
 
 function MeetingSection() {
   const content = {
@@ -8,12 +8,12 @@ function MeetingSection() {
     details:
       "There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.",
     btn: {
-      link: "javascript:void(0)",
+      link: "#",
       title: "Let's have a meeting",
     },
   };
   return (
-    <section className="bg-primary relative z-10 overflow-hidden py-20 lg:py-[115px]">
+    <section className="relative z-10 overflow-hidden bg-primary py-20 lg:py-[115px]">
       <div className="container mx-auto">
         <div className="relative overflow-hidden">
           <div className="-mx-4 flex flex-wrap items-stretch">

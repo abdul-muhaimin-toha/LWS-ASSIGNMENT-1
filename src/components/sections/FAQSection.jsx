@@ -1,5 +1,5 @@
-import FAQCard from "./FAQCard";
-import FAQSvg from "./svg-components/FAQSvg";
+import FAQCard from "../FAQCard";
+import FAQSvg from "../svg-components/FAQSvg";
 
 function FAQSection() {
   const contents = {
@@ -10,18 +10,18 @@ function FAQSection() {
   };
 
   return (
-    <section className="dark:bg-dark relative z-20 overflow-hidden bg-white pb-8 pt-20 lg:pb-[50px] lg:pt-[120px]">
+    <section className="relative z-20 overflow-hidden bg-white pb-8 pt-20 dark:bg-dark lg:pb-[50px] lg:pt-[120px]">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div className="mx-auto mb-[60px] max-w-[520px] text-center">
-              <span className="text-primary mb-2 block text-lg font-semibold">
+              <span className="mb-2 block text-lg font-semibold text-primary">
                 {contents.subHeading}
               </span>
-              <h2 className="text-dark mb-3 text-3xl font-bold leading-[1.2] sm:text-4xl md:text-[40px] dark:text-white">
+              <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]">
                 {contents.heading}
               </h2>
-              <p className="text-body-color dark:text-dark-6 mx-auto max-w-[485px] text-base">
+              <p className="mx-auto max-w-[485px] text-base text-body-color dark:text-dark-6">
                 {contents.details}
               </p>
             </div>
